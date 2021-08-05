@@ -75,7 +75,7 @@ class App extends Component {
     return (
       <div>
         <input type='number' name='eventid' value={this.state.eventid} onChange={this.onChange}></input>
-        <button onClick={this.updateEvent}>Search</button>
+        <button onClick={this.getEvent}>Search</button>
 
         <p>Event ID: {this.state.eventid}</p>
         <p>Event Name: {this.state.eventName}</p>
